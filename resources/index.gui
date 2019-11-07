@@ -1,0 +1,40 @@
+<svg>
+
+  <line x1="33%" y1="0" x2="33%" y2="100%" stroke-width="1" fill="white" />
+  <line x1="66%" y1="0" x2="66%" y2="100%" stroke-width="1" fill="white" />
+  
+  <line x1="0" y1="33%" x2="100%" y2="33%" stroke-width="1" fill="white" />
+  <line x1="0" y1="66%" x2="100%" y2="66%" stroke-width="1" fill="white" />
+  
+  <g transform="translate(16%, 18%)">
+    <text class="animText">Zoom In/Out</text>
+    <animateTransform attributeType="scale" from="0" to="1" dur="1" begin="load" repeatCount="indefinite" repeatDur="2"/>
+    <animateTransform attributeType="scale" from="1" to="0" dur="1" begin="load+1" repeatCount="indefinite" repeatDur="2"/>
+  </g>
+  
+  <g transform="translate(50%, 18%)">
+    <text class="animText">Rotate</text>
+    <animateTransform attributeType="rotate" from="0" to="360" dur="1" begin="load" repeatCount="indefinite"/>
+  </g>
+  
+  <g transform="translate(82%, 18%)">
+    <text class="animText">Opacity
+      <animate attributeName="opacity" begin="load" from="0" to="1" dur="1" repeatCount="indefinite" repeatDur="2"/>
+      <animate attributeName="opacity" begin="load+1" from="1" to="0" dur="1" repeatCount="indefinite" repeatDur="2"/>
+    </text>
+  </g>
+  
+  <g transform="translate(16%, 50%)">
+    <text class="animText">Fly X
+      <animate attributeName="x" begin="load" from="-20" to="20" dur="1" repeatCount="indefinite" repeatDur="2"/>
+      <animate attributeName="x" begin="load+1" from="20" to="-20" dur="1" repeatCount="indefinite" repeatDur="2"/>
+    </text>
+  </g>
+  
+  <g transform="translate(50%, 50%)">
+    <text class="animText">Fly Y
+      <animate attributeName="y" begin="load" from="-20" to="20" dur="1" repeatCount="indefinite" repeatDur="2"/>
+      <animate attributeName="y" begin="load+1" from="20" to="-20" dur="1" repeatCount="indefinite" repeatDur="2"/>
+    </text>
+  </g>
+</svg>

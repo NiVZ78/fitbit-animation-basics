@@ -1,0 +1,10 @@
+.animText {
+  x:0;
+  y:0;
+  text-anchor: middle;
+  font-size: 16;
+  font-family: Colfax-Bold;
+  font-weight: regular;
+  text-length: 32;
+  fill: white;
+}

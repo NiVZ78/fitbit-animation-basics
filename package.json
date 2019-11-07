@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "53d3f6ec-8bde-42ff-8c6a-9d17a875f963",
+    "appType": "app",
+    "appDisplayName": "animation-basics",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "animation-basics"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.0.0"
+  }
+}
